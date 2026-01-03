@@ -1,0 +1,1335 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MaxRev.Gdal.Core/3.12.0.427": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/MaxRev.Gdal.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/MaxRev.Gdal.Core.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/any/native/gdal-data/GDALLogoBW.svg": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/GDALLogoColor.svg": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/GDALLogoGS.svg": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/LICENSE.TXT": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/MM_m_idofic.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/bag_template.xml": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/cubewerx_extra.wkt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/default.rsc": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ecw_cs.wkt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/eedaconf.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/epsg.wkt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/esri_StatePlane_extra.wkt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gdal_algorithm.schema.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gdalg.schema.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gdalicon.png": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gdalinfo_output.schema.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gdalmdiminfo_output.schema.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gdaltileindex.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gdalvrt.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gfs.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gml_registry.xml": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gml_registry.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gmlasconf.xml": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gmlasconf.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_center.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_process.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_subcenter.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_0.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_1.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_13.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_14.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_15.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_16.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_17.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_18.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_19.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_190.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_191.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_2.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_20.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_21.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_22.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_3.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_4.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_5.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_6.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_0_7.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_10_0.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_10_1.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_10_191.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_10_2.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_10_3.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_10_4.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_1_0.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_1_1.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_1_2.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_20_0.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_20_1.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_20_2.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_20_3.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_2_0.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_2_3.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_2_4.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_2_5.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_2_6.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_2_7.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_3_0.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_3_1.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_3_2.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_3_3.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_3_4.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_3_5.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_3_6.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_0.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_1.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_10.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_2.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_3.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_4.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_5.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_6.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_7.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_8.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_4_9.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_local_Canada.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_local_HPC.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_local_MRMS.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_local_NCEP.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_local_NDFD.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_2_local_index.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_4_5.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/grib2_table_versions.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gt_datum.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/gt_ellips.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/header.dxf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/inspire_cp_BasicPropertyUnit.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/inspire_cp_CadastralBoundary.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/inspire_cp_CadastralParcel.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/inspire_cp_CadastralZoning.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_AdmArea.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_AdmBdry.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_AdmPt.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_BldA.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_BldL.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_Cntr.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_CommBdry.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_CommPt.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_Cstline.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_ElevPt.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_GCP.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_LeveeEdge.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_RailCL.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_RdASL.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_RdArea.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_RdCompt.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_RdEdg.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_RdMgtBdry.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_RdSgmtA.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_RvrMgtBdry.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_SBAPt.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_SBArea.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_SBBdry.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_WA.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_WL.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_WStrA.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/jpfgdgml_WStrL.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/leaflet_template.html": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/netcdf_config.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/nitf_spec.xml": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/nitf_spec.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ogr_fields_override.schema.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ogrinfo_output.schema.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ogrvrt.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/osmconf.ini": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ozi_datum.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ozi_ellips.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/pci_datum.txt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/pci_ellips.txt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/pdfcomposition.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/pds4_template.xml": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/plscenesconf.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ruian_vf_ob_v1.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ruian_vf_st_uvoh_v1.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ruian_vf_st_v1.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/ruian_vf_v1.gfs": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/s57agencies.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/s57attributes.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/s57expectedinput.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/s57objectclasses.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/seed_2d.dgn": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/seed_3d.dgn": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/stateplane.csv": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/template_tiles.mapml": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/tms_LINZAntarticaMapTileGrid.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/tms_MapML_APSTILE.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/tms_MapML_CBMTILE.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/tms_NZTM2000.json": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/trailer.dxf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/vdv452.xml": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/vdv452.xsd": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/gdal-data/vicar.json": {
+            "assetType": "native",
+            "rid": "any"
+          }
+        }
+      },
+      "MaxRev.Gdal.WindowsRuntime.Minimal/3.12.0.427": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/MaxRev.Gdal.WindowsRuntime.Minimal.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/MaxRev.Gdal.WindowsRuntime.Minimal.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/LIBPQ.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/arrow.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/blosc.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlicommon.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlidec.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlienc.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/bz2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/cfitsio.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/concrt140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/freetype.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/freexl.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdal.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdal_wrap.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdalconst_wrap.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/geos.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/geos_c.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gif.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/hdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/hdf5.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/hdf5_hl.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/hwy.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/iconv-2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jpeg62.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jxl.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jxl_cms.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jxl_threads.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/lcms2-2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libcrypto-3-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libcurl.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libexpat.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/liblzma.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libmysql.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libpng16.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libsharpyuv.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libssl-3-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libwebp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libxml2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/lz4.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/maxrev.gdal.core.libshared/proj.db": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/mfhdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msodbcsql17.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140_1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140_2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140_atomic_wait.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140_codecvt_ids.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/netcdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/ogr_wrap.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openjp2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/osr_wrap.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/parquet.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/pcre2-8.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/poppler.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/proj_9.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/snappy.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/spatialite.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/szip.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tiff.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vccorlib140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140_1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140_threads.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/xdr.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/xerces-c_3_2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zstd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "ProjNET/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/ProjNET.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ProjNET.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaxRev.Gdal.Core/3.12.0.427": {
+      "sha512": "0QG+hRjpqbefy3bx08MT1pT8kmTVh9T7DL5m3/fZeDzyYlg0j0XOqBqtpjP0q41cJKb1N2zYoMn1x+LuvkofMg==",
+      "type": "package",
+      "path": "maxrev.gdal.core/3.12.0.427",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/net461/MaxRev.Gdal.Core.targets",
+        "lib/net461/MaxRev.Gdal.Core.dll",
+        "lib/net6.0/MaxRev.Gdal.Core.dll",
+        "lib/net7.0/MaxRev.Gdal.Core.dll",
+        "lib/net8.0/MaxRev.Gdal.Core.dll",
+        "lib/net9.0/MaxRev.Gdal.Core.dll",
+        "lib/netstandard2.0/MaxRev.Gdal.Core.dll",
+        "lib/netstandard2.1/MaxRev.Gdal.Core.dll",
+        "maxrev.gdal.core.3.12.0.427.nupkg.sha512",
+        "maxrev.gdal.core.nuspec",
+        "runtimes/any/native/gdal-data/GDALLogoBW.svg",
+        "runtimes/any/native/gdal-data/GDALLogoColor.svg",
+        "runtimes/any/native/gdal-data/GDALLogoGS.svg",
+        "runtimes/any/native/gdal-data/LICENSE.TXT",
+        "runtimes/any/native/gdal-data/MM_m_idofic.csv",
+        "runtimes/any/native/gdal-data/bag_template.xml",
+        "runtimes/any/native/gdal-data/cubewerx_extra.wkt",
+        "runtimes/any/native/gdal-data/default.rsc",
+        "runtimes/any/native/gdal-data/ecw_cs.wkt",
+        "runtimes/any/native/gdal-data/eedaconf.json",
+        "runtimes/any/native/gdal-data/epsg.wkt",
+        "runtimes/any/native/gdal-data/esri_StatePlane_extra.wkt",
+        "runtimes/any/native/gdal-data/gdal_algorithm.schema.json",
+        "runtimes/any/native/gdal-data/gdalg.schema.json",
+        "runtimes/any/native/gdal-data/gdalicon.png",
+        "runtimes/any/native/gdal-data/gdalinfo_output.schema.json",
+        "runtimes/any/native/gdal-data/gdalmdiminfo_output.schema.json",
+        "runtimes/any/native/gdal-data/gdaltileindex.xsd",
+        "runtimes/any/native/gdal-data/gdalvrt.xsd",
+        "runtimes/any/native/gdal-data/gfs.xsd",
+        "runtimes/any/native/gdal-data/gml_registry.xml",
+        "runtimes/any/native/gdal-data/gml_registry.xsd",
+        "runtimes/any/native/gdal-data/gmlasconf.xml",
+        "runtimes/any/native/gdal-data/gmlasconf.xsd",
+        "runtimes/any/native/gdal-data/grib2_center.csv",
+        "runtimes/any/native/gdal-data/grib2_process.csv",
+        "runtimes/any/native/gdal-data/grib2_subcenter.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_0.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_1.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_13.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_14.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_15.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_16.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_17.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_18.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_19.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_190.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_191.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_2.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_20.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_21.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_22.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_3.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_4.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_5.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_6.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_0_7.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_10_0.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_10_1.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_10_191.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_10_2.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_10_3.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_10_4.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_1_0.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_1_1.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_1_2.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_20_0.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_20_1.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_20_2.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_20_3.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_2_0.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_2_3.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_2_4.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_2_5.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_2_6.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_2_7.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_3_0.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_3_1.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_3_2.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_3_3.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_3_4.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_3_5.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_3_6.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_0.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_1.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_10.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_2.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_3.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_4.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_5.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_6.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_7.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_8.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_4_9.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_local_Canada.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_local_HPC.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_local_MRMS.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_local_NCEP.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_local_NDFD.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_2_local_index.csv",
+        "runtimes/any/native/gdal-data/grib2_table_4_5.csv",
+        "runtimes/any/native/gdal-data/grib2_table_versions.csv",
+        "runtimes/any/native/gdal-data/gt_datum.csv",
+        "runtimes/any/native/gdal-data/gt_ellips.csv",
+        "runtimes/any/native/gdal-data/header.dxf",
+        "runtimes/any/native/gdal-data/inspire_cp_BasicPropertyUnit.gfs",
+        "runtimes/any/native/gdal-data/inspire_cp_CadastralBoundary.gfs",
+        "runtimes/any/native/gdal-data/inspire_cp_CadastralParcel.gfs",
+        "runtimes/any/native/gdal-data/inspire_cp_CadastralZoning.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_AdmArea.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_AdmBdry.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_AdmPt.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_BldA.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_BldL.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_Cntr.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_CommBdry.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_CommPt.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_Cstline.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_ElevPt.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_GCP.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_LeveeEdge.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_RailCL.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_RdASL.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_RdArea.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_RdCompt.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_RdEdg.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_RdMgtBdry.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_RdSgmtA.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_RvrMgtBdry.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_SBAPt.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_SBArea.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_SBBdry.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_WA.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_WL.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_WStrA.gfs",
+        "runtimes/any/native/gdal-data/jpfgdgml_WStrL.gfs",
+        "runtimes/any/native/gdal-data/leaflet_template.html",
+        "runtimes/any/native/gdal-data/netcdf_config.xsd",
+        "runtimes/any/native/gdal-data/nitf_spec.xml",
+        "runtimes/any/native/gdal-data/nitf_spec.xsd",
+        "runtimes/any/native/gdal-data/ogr_fields_override.schema.json",
+        "runtimes/any/native/gdal-data/ogrinfo_output.schema.json",
+        "runtimes/any/native/gdal-data/ogrvrt.xsd",
+        "runtimes/any/native/gdal-data/osmconf.ini",
+        "runtimes/any/native/gdal-data/ozi_datum.csv",
+        "runtimes/any/native/gdal-data/ozi_ellips.csv",
+        "runtimes/any/native/gdal-data/pci_datum.txt",
+        "runtimes/any/native/gdal-data/pci_ellips.txt",
+        "runtimes/any/native/gdal-data/pdfcomposition.xsd",
+        "runtimes/any/native/gdal-data/pds4_template.xml",
+        "runtimes/any/native/gdal-data/plscenesconf.json",
+        "runtimes/any/native/gdal-data/ruian_vf_ob_v1.gfs",
+        "runtimes/any/native/gdal-data/ruian_vf_st_uvoh_v1.gfs",
+        "runtimes/any/native/gdal-data/ruian_vf_st_v1.gfs",
+        "runtimes/any/native/gdal-data/ruian_vf_v1.gfs",
+        "runtimes/any/native/gdal-data/s57agencies.csv",
+        "runtimes/any/native/gdal-data/s57attributes.csv",
+        "runtimes/any/native/gdal-data/s57expectedinput.csv",
+        "runtimes/any/native/gdal-data/s57objectclasses.csv",
+        "runtimes/any/native/gdal-data/seed_2d.dgn",
+        "runtimes/any/native/gdal-data/seed_3d.dgn",
+        "runtimes/any/native/gdal-data/stateplane.csv",
+        "runtimes/any/native/gdal-data/template_tiles.mapml",
+        "runtimes/any/native/gdal-data/tms_LINZAntarticaMapTileGrid.json",
+        "runtimes/any/native/gdal-data/tms_MapML_APSTILE.json",
+        "runtimes/any/native/gdal-data/tms_MapML_CBMTILE.json",
+        "runtimes/any/native/gdal-data/tms_NZTM2000.json",
+        "runtimes/any/native/gdal-data/trailer.dxf",
+        "runtimes/any/native/gdal-data/vdv452.xml",
+        "runtimes/any/native/gdal-data/vdv452.xsd",
+        "runtimes/any/native/gdal-data/vicar.json"
+      ]
+    },
+    "MaxRev.Gdal.WindowsRuntime.Minimal/3.12.0.427": {
+      "sha512": "ercfmVt6OvE5hqFJ3MWFRWTBTz5QUxBfxGVU7/CCQfQ5k1S41yHKO3pXtA0YAffZTRMrw0sTCsga3HLdo5lk/w==",
+      "type": "package",
+      "path": "maxrev.gdal.windowsruntime.minimal/3.12.0.427",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/net461/MaxRev.Gdal.WindowsRuntime.Minimal.targets",
+        "lib/net461/MaxRev.Gdal.WindowsRuntime.Minimal.dll",
+        "lib/net6.0/MaxRev.Gdal.WindowsRuntime.Minimal.dll",
+        "lib/net7.0/MaxRev.Gdal.WindowsRuntime.Minimal.dll",
+        "lib/net8.0/MaxRev.Gdal.WindowsRuntime.Minimal.dll",
+        "lib/netstandard2.0/MaxRev.Gdal.WindowsRuntime.Minimal.dll",
+        "lib/netstandard2.1/MaxRev.Gdal.WindowsRuntime.Minimal.dll",
+        "maxrev.gdal.windowsruntime.minimal.3.12.0.427.nupkg.sha512",
+        "maxrev.gdal.windowsruntime.minimal.nuspec",
+        "runtimes/win-x64/native/LIBPQ.dll",
+        "runtimes/win-x64/native/arrow.dll",
+        "runtimes/win-x64/native/blosc.dll",
+        "runtimes/win-x64/native/brotlicommon.dll",
+        "runtimes/win-x64/native/brotlidec.dll",
+        "runtimes/win-x64/native/brotlienc.dll",
+        "runtimes/win-x64/native/bz2.dll",
+        "runtimes/win-x64/native/cfitsio.dll",
+        "runtimes/win-x64/native/concrt140.dll",
+        "runtimes/win-x64/native/freetype.dll",
+        "runtimes/win-x64/native/freexl.dll",
+        "runtimes/win-x64/native/gdal.dll",
+        "runtimes/win-x64/native/gdal_wrap.dll",
+        "runtimes/win-x64/native/gdalconst_wrap.dll",
+        "runtimes/win-x64/native/geos.dll",
+        "runtimes/win-x64/native/geos_c.dll",
+        "runtimes/win-x64/native/gif.dll",
+        "runtimes/win-x64/native/hdf.dll",
+        "runtimes/win-x64/native/hdf5.dll",
+        "runtimes/win-x64/native/hdf5_hl.dll",
+        "runtimes/win-x64/native/hwy.dll",
+        "runtimes/win-x64/native/iconv-2.dll",
+        "runtimes/win-x64/native/jpeg62.dll",
+        "runtimes/win-x64/native/jxl.dll",
+        "runtimes/win-x64/native/jxl_cms.dll",
+        "runtimes/win-x64/native/jxl_threads.dll",
+        "runtimes/win-x64/native/lcms2-2.dll",
+        "runtimes/win-x64/native/libcrypto-3-x64.dll",
+        "runtimes/win-x64/native/libcurl.dll",
+        "runtimes/win-x64/native/libexpat.dll",
+        "runtimes/win-x64/native/liblzma.dll",
+        "runtimes/win-x64/native/libmysql.dll",
+        "runtimes/win-x64/native/libpng16.dll",
+        "runtimes/win-x64/native/libsharpyuv.dll",
+        "runtimes/win-x64/native/libssl-3-x64.dll",
+        "runtimes/win-x64/native/libwebp.dll",
+        "runtimes/win-x64/native/libxml2.dll",
+        "runtimes/win-x64/native/lz4.dll",
+        "runtimes/win-x64/native/maxrev.gdal.core.libshared/proj.db",
+        "runtimes/win-x64/native/mfhdf.dll",
+        "runtimes/win-x64/native/msodbcsql17.dll",
+        "runtimes/win-x64/native/msvcp140.dll",
+        "runtimes/win-x64/native/msvcp140_1.dll",
+        "runtimes/win-x64/native/msvcp140_2.dll",
+        "runtimes/win-x64/native/msvcp140_atomic_wait.dll",
+        "runtimes/win-x64/native/msvcp140_codecvt_ids.dll",
+        "runtimes/win-x64/native/netcdf.dll",
+        "runtimes/win-x64/native/ogr_wrap.dll",
+        "runtimes/win-x64/native/openjp2.dll",
+        "runtimes/win-x64/native/osr_wrap.dll",
+        "runtimes/win-x64/native/parquet.dll",
+        "runtimes/win-x64/native/pcre2-8.dll",
+        "runtimes/win-x64/native/poppler.dll",
+        "runtimes/win-x64/native/proj_9.dll",
+        "runtimes/win-x64/native/snappy.dll",
+        "runtimes/win-x64/native/spatialite.dll",
+        "runtimes/win-x64/native/sqlite3.dll",
+        "runtimes/win-x64/native/szip.dll",
+        "runtimes/win-x64/native/tiff.dll",
+        "runtimes/win-x64/native/vccorlib140.dll",
+        "runtimes/win-x64/native/vcruntime140.dll",
+        "runtimes/win-x64/native/vcruntime140_1.dll",
+        "runtimes/win-x64/native/vcruntime140_threads.dll",
+        "runtimes/win-x64/native/xdr.dll",
+        "runtimes/win-x64/native/xerces-c_3_2.dll",
+        "runtimes/win-x64/native/zlib.dll",
+        "runtimes/win-x64/native/zlib1.dll",
+        "runtimes/win-x64/native/zstd.dll"
+      ]
+    },
+    "ProjNET/2.1.0": {
+      "sha512": "4F0xEYe+cQCgWgnf1UaDlRPFm9RxTaSFt4C/axNnCgSCNWU1AFDNvTyVdN/RwNmTYoGEWxo4sOYMQrW9kQtwpg==",
+      "type": "package",
+      "path": "projnet/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/ProjNET.dll",
+        "lib/netstandard2.0/ProjNET.xml",
+        "lib/netstandard2.1/ProjNET.dll",
+        "lib/netstandard2.1/ProjNET.xml",
+        "projnet.2.1.0.nupkg.sha512",
+        "projnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MaxRev.Gdal.Core >= 3.12.0.427",
+      "MaxRev.Gdal.WindowsRuntime.Minimal >= 3.12.0.427",
+      "ProjNET >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nitaf\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\projects\\lichtverschmutzung\\C#\\lichtverschmutzung\\lichtverschmutzung\\lichtverschmutzung.csproj",
+      "projectName": "lichtverschmutzung",
+      "projectPath": "D:\\projects\\lichtverschmutzung\\C#\\lichtverschmutzung\\lichtverschmutzung\\lichtverschmutzung.csproj",
+      "packagesPath": "C:\\Users\\nitaf\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\lichtverschmutzung\\C#\\lichtverschmutzung\\lichtverschmutzung\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\nitaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "MaxRev.Gdal.Core": {
+            "target": "Package",
+            "version": "[3.12.0.427, )"
+          },
+          "MaxRev.Gdal.WindowsRuntime.Minimal": {
+            "target": "Package",
+            "version": "[3.12.0.427, )"
+          },
+          "ProjNET": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

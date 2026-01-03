@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kdzWk+6bLSw=",
+  "success": true,
+  "projectFilePath": "D:\\projects\\lichtverschmutzung\\C#\\lichtverschmutzung\\lichtverschmutzung\\lichtverschmutzung.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nitaf\\.nuget\\packages\\maxrev.gdal.core\\3.12.0.427\\maxrev.gdal.core.3.12.0.427.nupkg.sha512",
+    "C:\\Users\\nitaf\\.nuget\\packages\\maxrev.gdal.windowsruntime.minimal\\3.12.0.427\\maxrev.gdal.windowsruntime.minimal.3.12.0.427.nupkg.sha512",
+    "C:\\Users\\nitaf\\.nuget\\packages\\projnet\\2.1.0\\projnet.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

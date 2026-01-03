@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Light Pollution Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+
+      <!-- MAP -->
+      <div class="map-container">
+        <div id="map"></div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="side-panel">
+
+        <!-- SEARCH BAR -->
+        <div class="search-bar">
+          <input id="searchInput" type="text" placeholder="Enter city name…" autocomplete="off">
+          <div id="autocompleteList" class="autocomplete-list"></div>
+        </div>
+
+        <!-- CHARTS -->
+        <div id="chart"></div>
+        <div id="popChart"></div>
+
+      </div>
+
+      <!-- BOTTOM -->
+      <div class="bottom-bar">
+        <div class="legend-item green">1-4</div>
+        <div class="legend-item yellow">4-7</div>
+        <div class="legend-item red">7-9</div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
