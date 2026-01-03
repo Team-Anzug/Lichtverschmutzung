@@ -5,9 +5,9 @@
 
 # How do I get started?
 
-The data will be collected from the file named World_Atlas_2015.tif
-Download link (make sure you unzip the file): https://limewire.com/?referrer=pq7i8xx7p2
-You have to paste it there: ...\C#\lichtverschmutzung\lichtverschmutzung\bin\Debug\net8.0\World_Atlas_2015.tif
+The data will be collected from the file named World_Atlas_2015.tif <br>
+Download link (make sure you unzip the file): https://limewire.com/?referrer=pq7i8xx7p2 <br>
+You have to paste it there: ...\C#\lichtverschmutzung\lichtverschmutzung\bin\Debug\net8.0\World_Atlas_2015.tif <br>
 
 Before running the index.html file, you need to start the server.
 To do this, run the project named lichtverschmutzung.csproj located in the C# folder.
